@@ -39,7 +39,7 @@ android {
     defaultConfig {
         signingConfig signingConfigs.debug
         applicationId 'com.qualcomm.ftcrobotcontroller'
-        minSdkVersion 23
+        minSdkVersion 24 // You MUST set this to 24 for ftc265 to work
         targetSdkVersion 28
 
         /**
@@ -91,9 +91,10 @@ android {
         }
     }
 
+    // You MUST set these to Java 1.8 for ftc265 to work
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_7
-        targetCompatibility JavaVersion.VERSION_1_7
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
 
     sourceSets.main {
