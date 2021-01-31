@@ -6,6 +6,6 @@ dependencies {
     implementation (name: 'tfod-release', ext:'aar')
     implementation (name: 'tensorflow-lite-0.0.0-nightly', ext:'aar')
 
-    implementation 'com.spartronics4915.lib:ftc265:2.1.7-testing-2'
+    implementation 'com.spartronics4915.lib:ftc265:2.1.8'
     implementation 'com.acmerobotics.dashboard:dashboard:0.3.10' // Optional; you don't need to include this if you don't use the FTC Dashboard
 }
